@@ -1,0 +1,236 @@
+* {
+  margin: 0 0 0 0;
+  padding: 0;
+
+}
+
+
+body {
+	font-family: arial, sans-serif;
+}
+
+
+.grey-fixed {
+    
+    width: 100%;
+    height:39px;
+    background-color: #f1f1f1;
+    position: fixed;
+    padding: 20px;
+ 
+    
+}
+
+
+
+.apps a {
+    text-decoration: none;
+    color: #444444;
+    height: 20px;
+    padding: 0px 0px;
+    float: right;
+    margin: -5px 6px;
+    
+
+}
+
+.apps a:hover {
+    text-decoration: underline;
+    color: #222222;
+
+    
+    
+
+}
+
+.apps img {
+
+    color: #444444;
+    width: 24px;
+    height: 24px;
+    opacity: 0.59;
+    
+    
+    
+    
+
+}
+
+.apps img:hover {
+    
+    opacity: 0.8;
+}
+
+
+.sign-in button {
+    border: 0px solid;
+    background-color: #4285f4;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    height: 30px;
+    padding-top: 0px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 0px;
+    float: right;
+    margin: -10px 60px 10px 20px;
+    
+
+
+}
+
+
+
+
+
+#content {
+  margin: auto;
+  width: 100%;
+  position: relative;
+ 
+
+
+}
+
+.logo {
+    position: relative;
+    padding-left: 13px; 
+  padding-right: 10px; 
+   padding-top: 6px;
+    display: inline-block;
+    float: left;
+
+}
+
+.logo img {
+   margin: auto;
+   width: 95px;
+
+}
+
+
+
+
+input[type=text] {
+    
+	height: 38px;
+    width: 400px;
+	padding-left: 9px;
+	padding-right: 9px;
+	border: 1px solid #ddd;
+	font-size: 16px;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/2/22/Google_microphone_logo.png') no-repeat scroll;
+    background-position: right 6px bottom 6px;
+    background-size: 18px;
+    background-color: white;
+    display: inline-block;
+    float: left;
+    
+   
+}
+
+input:focus {
+  	border: 1px solid #4285f4;
+	outline: none;
+}
+
+
+.search {
+    width: 40px;
+    height: 40px;
+    background: url('images/google-web-search-xxl.png') no-repeat;
+    color: #666666;
+    background-size: contain;
+    display: inline-block;
+    float: left;
+    margin-top: -18px;
+    
+}
+
+
+input[type=submit] {
+    
+    border: 0px solid;
+    
+    background: none;
+    font-size: 13px;
+    width: 42px;
+    font-weight: 600;
+    height: 38px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+    
+
+
+}
+
+
+input[type=submit]:hover {
+  box-shadow:  0px 0px 0px 1px #cccccc;
+  color: #222222;
+
+
+
+}
+
+
+
+
+
+
+.footer {
+   position: fixed;
+   bottom: 0px;
+   width: 100%;
+   background: #ededed;
+    line-height: 40px;
+    
+
+}
+
+
+.footer ul {
+    
+    margin: 0px 12px;
+    
+}
+.footer li {
+
+  float: left;
+  list-style-type:none;
+    
+
+
+
+
+}
+
+.footer li a {
+    text-decoration: none;
+    color: #666666;
+    font-size: 13px;
+    text-align: center;
+    padding: 0px 17px;
+
+}
+
+.footer li a:hover {
+  text-decoration: underline;
+
+}
+
+
+
+
+#leftbar {
+  float: left;
+}
+
+
+#rightbar {
+  float: right;
+
+
+}
